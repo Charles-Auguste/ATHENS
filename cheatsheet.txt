@@ -1,0 +1,73 @@
+TERMINAL:
+^A-> goto the beginning of command line
+^E-> goto the end of command line
+^Z-> suspend teh current process
+bg-> put the suspended process in background
+ARROW-> to access previously typed commands
+^R-> reverse search command history
+
+SSH:
+
+ssh-keygen -> 
+to generate public private key pair
+
+ssh-copy-id user@server -> 
+
+adds public key to the authorized keys
+
+ssh-add
+
+------------------------------------------------------------------
+GIT:
+
+git clone https://github.com/amusant/tpt39.git
+
+
+
+add file:
+git add <filename>
+
+commit
+git commit -m "your message"
+
+
+push:
+
+git push
+
+pull
+git pull
+
+branching:
+
+git branch -a
+git checkout <branchname>
+
+git merge <branchname1>:<filename> <branchname2>:<filename>
+
+------------------------------------------------------------------
+
+
+------------------------------------------------------------------
+Makefile
+
+list:
+	ls 
+	pwd
+make -n list  :dry-run
+------------------------------------------------------------------
+
+
+VIM
+------------------------------------------------------------------
+$vi testfile
+:i -> insertion
+:w -> save
+:q -> quit
+yy -> copy
+p  -> paste
+dd -> delete current line
+<n>dd -> delete n lines
+
+
+
