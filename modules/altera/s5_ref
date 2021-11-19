@@ -1,0 +1,4 @@
+#%Module1.0#####################################################################
+global env ; 
+prereq altera
+setenv  AOCL_BOARD_PACKAGE_ROOT $env(ALTERAOCLSDKROOT)/board/s5_ref

@@ -1,0 +1,13 @@
+#%Module1.0#####################################################################
+set INSTALL_DIR /comelec/softs/opt/altera/altera17.0 
+set SOCEDS_DEST_ROOT $INSTALL_DIR/embedded
+setenv QUARTUS_ROOTDIR $INSTALL_DIR/quartus
+setenv SOCEDS_DEST_ROOT $INSTALL_DIR/embedded 
+setenv ALTERAOCLSDKROOT $INSTALL_DIR/hld
+prepend-path  PATH $INSTALL_DIR/quartus/bin
+prepend-path PATH $INSTALL_DIR/quartus/sopc_builder/bin
+prepend-path PATH $INSTALL_DIR/quartus/dsp_builder
+prepend-path PATH /comelec/softs/opt/matlab/last/bin
+prepend-path  PATH $SOCEDS_DEST_ROOT/host_tools/altera/preloadergen/
+prepend-path  PATH $INSTALL_DIR/hld/bin
+prepend-path LM_LICENSE_FILE @flexlm.comelec.enst.fr

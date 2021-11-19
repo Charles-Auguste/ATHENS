@@ -1,0 +1,3 @@
+#%Module1.0#####################################################################
+prepend-path PATH /comelec/softs/opt/ARM_tools/Mali_Offline_Compiler_v6.2.0
+prepend-path PATH /comelec/softs/opt/altera/altera17.0/embedded/ds-5/bin/
